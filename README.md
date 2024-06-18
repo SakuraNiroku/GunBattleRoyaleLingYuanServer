@@ -2,22 +2,9 @@
 
 ## 游戏简介
 
-本 MOD 是 MrCrayfish's Gun Mod 的拓展 MOD，加入了一些 Apex 元素，为大逃杀专门适配的一个 MOD。
+这个 branch 是将 master 分支模组中的数据包单独提取出来构成的，方便移植到其它玩法中。
 
 ## 使用方式
-
-### 必装前置
-
-- Minecraft 1.19.2 Forge 43.1.1
-- [枪械MOD](https://github.com/MrCrayfish/MrCrayfishGunMod)
-  - [枪械MOD前置](https://github.com/MrCrayfish/Framework)
-- [遗体MOD](https://github.com/henkelmax/corpse)
-
-### 可选项
-
-- [一键掠夺&快捷栏](https://github.com/blackd/Inventory-Profiles)
-  - [一键掠夺&快捷栏前置1](https://github.com/thedarkcolour/KotlinForForge)
-  - [一键掠夺&快捷栏前置2](https://github.com/blackd/libIPN)
 
 ### 关于服务器
 
@@ -45,7 +32,7 @@ view-distance=12
 - 121：跳伞平台
 - 161：起始平台
 
-跳伞平台最好不要使用玻璃，因为会被打碎。起始平台无所谓，因为本 MOD 中枪的射程没那么远。MOD 中提供了名为 gbr:start 的起始平台，可以作为参考。如果您需要调整y轴，可能需要将函数中的部分数值进行修改。
+这些y轴高度涉及到数据包中部分函数的表现，如果不严格遵守这个y轴高度，需要修改数据包中的一些指令。
 
 ### 职业与队伍
 
@@ -54,10 +41,10 @@ view-distance=12
 创建一个告示牌，告示牌上有一些引导玩家的内容，同时玩家可以通过右键告示牌便捷执行指令，如：
 
 ```mcfunction
-data modify block ~ ~ ~ Text3 set value '{"text": "some text", "clickEvent": {"action": "run_command", "value": "/choose observe"}}'
+data modify block ~ ~ ~ Text3 set value '{"text": "some text", "clickEvent": {"action": "run_command", "value": "/class attack"}}'
 ```
 
-这个指令会将玩家所在位置的告示牌的第三行字修改为 `some text`，并且在玩家右键时执行 `/choose observe` 指令。
+这个指令会将玩家所在位置的告示牌的第三行字修改为 `some text`，并且在玩家右键时执行 `/class attack` 指令。
 
 ### 设置盔甲架
 
@@ -94,17 +81,7 @@ function gbr:check_supply
 
 ### 地图初始化
 
-在完成所有的场景设置后，确认本 MOD 的数据包在最后加载，具体指令如下：
-
-```mcfunction
-datapack disable "mod:gbr"
-```
-
-```mcfunction
-datapack enable "mod:gbr" last
-```
-
-之后使用这个指令运行地图初始化函数。注意：地图初始化过程不可逆，建议在执行此步骤前备份地图存档。地图初始化函数的具体内容可以在文件中查看。
+在完成所有的场景设置后，使用这个指令运行地图初始化函数。注意：地图初始化过程不可逆，建议在执行此步骤前备份地图存档。地图初始化函数的具体内容可以在文件中查看。
 
 ```mcfunction
 function gbr:map_init
