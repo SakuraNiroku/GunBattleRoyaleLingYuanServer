@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "gbr:skill_bag"
+                    "name": "gunskills:skill_bag"
                 }
             ]
         },
@@ -14,7 +14,16 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "gbr:shield_boost"
+                    "name": "gunskills:shield_boost"
+                }
+            ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "gbr:attachments/purple"
                 }
             ]
         },
@@ -23,46 +32,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "gbr:charge_rifle",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{AmmoCount:12, Attachments:{Scope:{id:\"cgm:long_scope\", Count:1b}}, AttributeModifiers:[{AttributeName:\"generic.attack_speed\", Operation:1, Amount:-0.75, Name:\"attack_speed\", Slot:\"mainhand\", UUID:[I;114,514,1919,810]}]}"
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "cgm:pistol",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{AmmoCount:150, Attachments:{Scope:{id:\"cgm:short_scope\", Count:1b}, Barrel:{id:\"gbr:advanced_stabilizer\", Count:1b, tag:{Enchantments:[{}]}}, Stock:{id:\"gbr:advanced_stock\", Count:1b, tag:{Enchantments:[{}]}}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "cgm:mini_gun",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{AmmoCount:100, AttributeModifiers:[{AttributeName:\"generic.attack_speed\", Operation:1, Amount:-0.5, Name:\"attack_speed\", Slot:\"mainhand\", UUID:[I;114,514,1919,810]}]}"
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "gbr:r2r5"
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "gbr:reviver"
+                    "name": "gunskills:reviver"
                 }
             ]
         }

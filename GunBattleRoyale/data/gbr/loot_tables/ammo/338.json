@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 10,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "tacz:ammo",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AmmoId:\"tacz:338\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

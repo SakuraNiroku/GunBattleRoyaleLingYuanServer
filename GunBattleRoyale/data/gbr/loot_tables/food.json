@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "gbr:shield_cell",
+                    "name": "gunskills:shield_cell",
                     "functions": [
                         {
                             "function": "set_count",
@@ -19,7 +19,7 @@
                     "weight": 10
                 },{
                     "type": "item",
-                    "name": "gbr:syringe",
+                    "name": "gunskills:syringe",
                     "functions": [
                         {
                             "function": "set_count",
@@ -33,19 +33,19 @@
                     "weight": 5
                 },{
                     "type": "item",
-                    "name": "gbr:shield_battery",
+                    "name": "gunskills:shield_battery",
                     "weight": 4
                 },{
                     "type": "item",
-                    "name": "gbr:med_kit",
+                    "name": "gunskills:med_kit",
                     "weight": 2
                 },{
                     "type": "item",
-                    "name": "gbr:phoenix_kit",
+                    "name": "gunskills:phoenix_kit",
                     "weight": 1
                 },{
                     "type": "item",
-                    "name": "gbr:shield_boost",
+                    "name": "gunskills:shield_boost",
                     "weight": 5
                 }
             ]
