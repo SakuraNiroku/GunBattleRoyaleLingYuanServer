@@ -32,7 +32,40 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{GunId:\"tacz:ai_awp\", GunFireMode:\"AUTO\", GunCurrentAmmoCount:4}"
+                            "tag": "{GunId:\"tacz:ai_awp\", GunFireMode:\"SEMI\", GunCurrentAmmoCount:4}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"tacz:vector45\", GunFireMode:\"AUTO\", HasBulletInBarrel:1b, GunCurrentAmmoCount:26}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"tacz:m4a1\", GunFireMode:\"AUTO\", HasBulletInBarrel:1b, GunCurrentAmmoCount:25}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"tacz:scar_h\", GunFireMode:\"SEMI\", HasBulletInBarrel:1b, GunCurrentAmmoCount:6}"
                         }
                     ]
                 }
