@@ -38,13 +38,13 @@ for i in range(12):
 # scoreboard players add @a[team=%s] stat_win 1
 # scoreboard players operation @a[team=%s] rank += game_rank global""" % (team, team, team))
 
-damage = 1.2
-distance = 10
+damage = 0.25
+distance = 6.4
 def dmg1(stage):
     return damage * (4 + stage)
 def dmg2(stage):
     return damage * (11 - stage)
 for i in range(5, 10):
-    s = '{"distance": %.1f, "damage": %.2f},' % (distance * i, dmg1(i - 4))
+    s = '{"distance": %.1f, "damage": %.2f},' % (distance * i, dmg2(i - 4))
     print(s)
-print('{"distance": "infinite", "damage": %.2f},' % (dmg1(6)))
+print('{"distance": "infinite", "damage": %.2f},' % (dmg2(6)))
