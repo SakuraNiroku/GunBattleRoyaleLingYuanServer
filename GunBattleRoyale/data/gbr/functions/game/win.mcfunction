@@ -22,6 +22,7 @@ kill @e[tag=testplayer]
 team empty test
 
 effect clear @a[gamemode=adventure]
+clear @a[gamemode=adventure]
 worldborder set 114514
 schedule clear gbr:game/afk
 scoreboard players set game_start global 0

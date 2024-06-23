@@ -1,3 +1,4 @@
+clear @s
 item replace entity @s armor.chest with elytra{Enchantments:[{id:"binding_curse", lvl:1}, {id:"vanishing_curse", lvl:1}]} 1
 function gbr:game/fee
 tag @s add jumping

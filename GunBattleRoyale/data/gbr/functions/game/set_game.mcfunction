@@ -5,6 +5,7 @@ execute as @a[gamemode=adventure, team=] run scoreboard players set @s ob 1
 execute as @a[gamemode=adventure] unless score @s ob matches 1 run scoreboard players set @s death 0
 effect clear @a[gamemode=adventure]
 
+execute as @a[gamemode=adventure] run function gbr:game/set_game_player
 execute as @e[tag=jump] run teleport @a[gamemode=adventure] @s
 execute at @e[tag=jump] run summon gunskills:shield_bottle ~ ~ ~
 gamemode spectator @a[gamemode=adventure, scores={ob=1}]
@@ -17,7 +18,6 @@ execute as @e[tag=ring, sort=random, limit=1] run data modify entity @s Tags app
 execute at @e[tag=center] run function gbr:game/set_center
 worldborder set 601 0
 worldborder set 1 300
-execute as @a[gamemode=adventure] run function gbr:game/set_game_player
 
 # game_team_norank 为不可以获得排名分的队伍数量
 scoreboard players operation game_team_half global = total team_alive
