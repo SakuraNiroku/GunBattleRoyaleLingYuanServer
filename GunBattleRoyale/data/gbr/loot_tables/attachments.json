@@ -11,6 +11,11 @@
                 {
                     "type": "loot_table",
                     "name": "gbr:attachments/blue",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "name": "gbr:attachments/purple",
                     "weight": 1
                 }
             ]
