@@ -9,14 +9,14 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{GunId:\"tacz:m249\", GunFireMode:\"AUTO\", HasBulletInBarrel:1b, GunCurrentAmmoCount:50, AttachmentSCOPE: {id: \"tacz:attachment\", Count: 1b, tag: {AttachmentId: \"tacz:scope_acog_ta31\"}}}"
+                            "tag": "{GunId:\"tacz:m249\", GunFireMode:\"AUTO\", HasBulletInBarrel:1b, GunCurrentAmmoCount:60, AttachmentSCOPE: {id: \"tacz:attachment\", Count: 1b, tag: {AttachmentId: \"tacz:scope_acog_ta31\"}}}"
                         }
                     ]
                 }
             ]
         },
         {
-            "rolls": 100,
+            "rolls": 120,
             "entries": [
                 {
                     "type": "item",
