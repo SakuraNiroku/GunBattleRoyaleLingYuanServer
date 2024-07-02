@@ -19,11 +19,15 @@
             ]
         },
         {
-            "rolls": 3,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "loot_table",
-                    "name": "gbr:attachments/purple"
+                    "name": "gbr:airdrop_guns/m249"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "gbr:airdrop_guns/m95"
                 }
             ]
         },
