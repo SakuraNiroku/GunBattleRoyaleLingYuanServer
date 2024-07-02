@@ -5,10 +5,10 @@ execute as @a[gamemode=adventure, team=] run scoreboard players set @s ob 1
 execute as @a[gamemode=adventure] unless score @s ob matches 1 run scoreboard players set @s death 0
 effect clear @a[gamemode=adventure]
 
+gamemode spectator @a[gamemode=adventure, scores={ob=1}]
 execute as @a[gamemode=adventure] run function gbr:game/set_game_player
 execute as @e[tag=jump] run teleport @a[gamemode=adventure] @s
 execute at @e[tag=jump] run summon gunskills:shield_bottle ~ ~ ~
-gamemode spectator @a[gamemode=adventure, scores={ob=1}]
 scoreboard players set @a[gamemode=spectator] death -1
 
 schedule clear gbr:game/set_supply
