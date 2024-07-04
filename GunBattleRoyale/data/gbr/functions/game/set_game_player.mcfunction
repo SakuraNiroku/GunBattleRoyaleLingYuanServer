@@ -6,3 +6,4 @@ experience set @s 1 levels
 experience set @s 0 points
 data modify entity @s AbsorptionAmount set value 8
 scoreboard players add @s stat_total 1
+scoreboard players add game_player_count global 1
