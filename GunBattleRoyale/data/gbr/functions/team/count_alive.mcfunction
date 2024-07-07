@@ -15,8 +15,4 @@ execute as @a[gamemode=adventure, team=cyan] run scoreboard players add @e[tag=c
 execute as @e[tag=testplayer] run scoreboard players add @e[tag=test] team_alive 1
 
 scoreboard players set total team_alive 0
-execute as @e[tag=team, scores={team_alive=1..3}] run scoreboard players add total team_alive 1
-
-scoreboard players set game_team_max global 3
-execute as @e[tag=team] if score @s team_alive matches 1 run scoreboard players set game_team_max global 2
-execute if score game_force_start global matches 1 run scoreboard players set game_team_max global 3
+execute as @e[tag=team, scores={team_alive=1..2147483647}] run scoreboard players add total team_alive 1
