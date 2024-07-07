@@ -1,7 +1,4 @@
 [
   "#tacz:scope",
-  "#tacz:muzzle",
-  "#tacz:extended_mag",
-  "#tacz:stock",
-  "#tacz:grip"
+  "#tacz:sniper_extended_mag"
 ]

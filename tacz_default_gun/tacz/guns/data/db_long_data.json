@@ -23,7 +23,7 @@
     "ignite": false,
     "pierce": 1
   },
-  "ammo_amount": 2,
+  "ammo_amount": 5,
   "bolt": "open_bolt",
   "reload": {
     "type": "magazine",
