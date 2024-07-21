@@ -17,7 +17,7 @@
                 }
             ]
         },{
-            "rolls": 1,
+            "rolls": 3,
             "entries": [
                 {
                     "type": "loot_table",
@@ -33,7 +33,7 @@
                 }
             ]
         },{
-            "rolls": 1,
+            "rolls": 2,
             "entries": [
                 {
                     "type": "item",

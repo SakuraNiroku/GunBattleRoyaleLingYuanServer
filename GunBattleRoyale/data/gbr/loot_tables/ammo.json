@@ -22,6 +22,10 @@
                 {
                     "type":"loot_table",
                     "name":"gbr:ammo/556x45"
+                },
+                {
+                    "type":"loot_table",
+                    "name":"gbr:ammo/45acp"
                 }
             ]
         }
