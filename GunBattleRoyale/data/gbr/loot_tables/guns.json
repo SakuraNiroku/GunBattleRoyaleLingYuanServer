@@ -68,6 +68,17 @@
                             "tag": "{GunId:\"tacz:scar_h\", GunFireMode:\"SEMI\", HasBulletInBarrel:1b, GunCurrentAmmoCount:6}"
                         }
                     ]
+                },
+                {
+                    "type":"item",
+                    "name":"tacz:modern_kinetic_gun",
+                    "weight":1,
+                    "functions":[
+                        {
+                            "function":"set_nbt",
+                            "tag":"{GunCurrentAmmoCount: 2,GunFireMode: \"BURST\",GunId: \"tacz:db_short\",HasBulletInBarrel: 1b}"
+                        }
+                    ]
                 }
             ]
         }

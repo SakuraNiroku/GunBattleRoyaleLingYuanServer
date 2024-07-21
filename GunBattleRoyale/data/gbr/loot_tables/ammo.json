@@ -14,6 +14,14 @@
                 {
                     "type": "loot_table",
                     "name": "gbr:ammo/338"
+                },
+                {
+                    "type":"loot_table",
+                    "name":"gbr:ammo/308"
+                },
+                {
+                    "type":"loot_table",
+                    "name":"gbr:ammo/556x45"
                 }
             ]
         }
