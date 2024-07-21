@@ -6,12 +6,12 @@
                 {
                     "type": "loot_table",
                     "name": "gbr:attachments/white",
-                    "weight": 3
+                    "weight": 10
                 },
                 {
                     "type": "loot_table",
                     "name": "gbr:attachments/blue",
-                    "weight": 2
+                    "weight": 9
                 },
                 {
                     "type": "loot_table",

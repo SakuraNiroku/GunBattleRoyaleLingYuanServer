@@ -62,6 +62,27 @@
                             "tag": "{AttachmentId:\"tacz:light_extended_mag_3\"}"
                         }
                     ]
+                },
+                {
+                    "type":"item",
+                    "name":"minecraft:totem_of_undying"
+                },
+                {
+                    "type":"item",
+                    "name":"minecraft:enchanted_golden_apple"
+                },
+                {
+                    "type":"item",
+                    "name":"gunskills:reviver",
+                    "functions":[
+                        {
+                            "function":"set_count",
+                            "count":{
+                                "min":0,
+                                "max":1
+                            }
+                        }
+                    ]
                 }
             ]
         }

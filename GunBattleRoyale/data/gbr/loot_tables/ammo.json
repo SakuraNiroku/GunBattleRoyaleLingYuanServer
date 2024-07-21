@@ -26,6 +26,10 @@
                 {
                     "type":"loot_table",
                     "name":"gbr:ammo/45acp"
+                },
+                {
+                    "type":"loot_table",
+                    "name":"gbr:ammo/arrow"
                 }
             ]
         }

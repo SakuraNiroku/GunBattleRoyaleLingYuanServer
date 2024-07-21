@@ -90,6 +90,21 @@
                             "tag": "{GunId:\"tacz:glock_17\", GunFireMode:\"SEMI\", HasBulletInBarrel:1b, GunCurrentAmmoCount:20}"
                         }
                     ]
+                },
+                {
+                    "type":"item",
+                    "name":"minecraft:bow",
+                    "weight":2
+                },
+                {
+                    "type":"item",
+                    "name":"minecraft:crossbow",
+                    "weight":3
+                },
+                {
+                    "type":"item",
+                    "name":"minecraft:trident",
+                    "weight":2
                 }
             ]
         }
