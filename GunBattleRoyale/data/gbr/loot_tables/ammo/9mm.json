@@ -1,7 +1,7 @@
 {
     "pools": [
         {
-            "rolls": 30,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "item",
@@ -10,6 +10,13 @@
                         {
                             "function": "set_nbt",
                             "tag": "{AmmoId:\"tacz:9mm\"}"
+                        },
+                        {
+                            "function":"set_count",
+                            "count":{
+                                "min":0,
+                                "max":15
+                            }
                         }
                     ]
                 }

@@ -69,7 +69,16 @@
                 },
                 {
                     "type":"item",
-                    "name":"minecraft:enchanted_golden_apple"
+                    "name":"minecraft:enchanted_golden_apple",
+                    "functions":[
+                        {
+                            "function":"set_count",
+                            "count":{
+                                "min":0,
+                                "max":3
+                            }
+                        }
+                    ]
                 },
                 {
                     "type":"item",
