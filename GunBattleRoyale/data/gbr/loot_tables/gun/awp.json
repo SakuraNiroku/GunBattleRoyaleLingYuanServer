@@ -1,12 +1,8 @@
 {
     "pools": [
         {
-            "rolls": 2,
+            "rolls": 1,
             "entries": [
-                {
-                    "type": "loot_table",
-                    "name":"gbr:ammo/338"
-                },
                 {
                     "type": "item",
                     "name": "tacz:modern_kinetic_gun",
@@ -17,6 +13,15 @@
                             "tag": "{GunId:\"tacz:ai_awp\", GunFireMode:\"SEMI\", GunCurrentAmmoCount:4}"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type": "loot_table",
+                    "name":"gbr:ammo/338"
                 }
             ]
         }

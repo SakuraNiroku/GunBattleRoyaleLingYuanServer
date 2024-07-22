@@ -1,12 +1,8 @@
 {
     "pools": [
         {
-            "rolls": 2,
+            "rolls": 1,
             "entries": [
-                {
-                    "type": "loot_table",
-                    "name":"gbr:ammo/12g"
-                },
                 {
                     "type":"item",
                     "name":"tacz:modern_kinetic_gun",
@@ -17,6 +13,15 @@
                             "tag":"{GunCurrentAmmoCount: 2,GunFireMode: \"BURST\",GunId: \"tacz:db_short\",HasBulletInBarrel: 1b}"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type": "loot_table",
+                    "name":"gbr:ammo/12g"
                 }
             ]
         }

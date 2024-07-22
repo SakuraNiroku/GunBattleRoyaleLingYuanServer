@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{GunId:\"tacz:ak47\", GunFireMode:\"AUTO\", HasBulletInBarrel:1b, GunCurrentAmmoCount:21}"
+                            "tag": "{GunId:\"tacz:cz75\", GunFireMode:\"AUTO\", HasBulletInBarrel:1b, GunCurrentAmmoCount:16}"
                         }
                     ]
                 }
@@ -21,7 +21,7 @@
             "entries":[
                 {
                     "type": "loot_table",
-                    "name":"gbr:ammo/762x39"
+                    "name":"gbr:ammo/9mm"
                 }
             ]
         }

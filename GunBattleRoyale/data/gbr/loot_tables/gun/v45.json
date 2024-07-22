@@ -1,12 +1,8 @@
 {
     "pools": [
         {
-            "rolls": 2,
+            "rolls": 1,
             "entries": [
-                {
-                    "type": "loot_table",
-                    "name":"gbr:ammo/45acp"
-                },
                 {
                     "type": "item",
                     "name": "tacz:modern_kinetic_gun",
@@ -17,6 +13,15 @@
                             "tag": "{GunId:\"tacz:vector45\", GunFireMode:\"AUTO\", HasBulletInBarrel:1b, GunCurrentAmmoCount:26}"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type": "loot_table",
+                    "name":"gbr:ammo/45acp"
                 }
             ]
         }
